@@ -86,7 +86,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 BACKSPACE  &lt 2 SPACE  &kp LANG1      &mt RIGHT_SHIFT LANG2  &mt RCTRL TAB                               &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp N2         &kp N3            &kp N4     &kp N5                         &kp N6           &kp N7       &kp N8            &kp N9             &kp N0
-&kp GRAVE     &kp BACKSLASH  &kp SINGLE_QUOTE  &kp SLASH  &kp COMMA  &trans      &trans  &kp SEMICOLON    &kp AT_SIGN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans        &trans         &trans            &trans     &kp EQUAL  &trans      &trans  &kp MINUS        &trans       &trans            &trans             &trans
-&trans        &trans         &trans            &trans     &trans     &trans      &trans  &kp RIGHT_SHIFT                                                    &trans
+&kp NUMBER_1  &kp N2         &kp N3            &kp N4     &kp N5                         &kp N6           &kp N7         &kp N8            &kp N9             &kp N0
+&kp GRAVE     &kp BACKSLASH  &kp SINGLE_QUOTE  &kp SLASH  &kp COMMA  &trans      &trans  &kp PERIOD       &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans        &trans         &trans            &trans     &kp EQUAL  &trans      &trans  &trans           &kp MINUS      &trans            &trans             &trans
+&trans        &trans         &trans            &trans     &trans     &trans      &trans  &kp RIGHT_SHIFT                                                      &trans
             >;
         };
 
