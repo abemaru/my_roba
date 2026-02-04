@@ -122,6 +122,8 @@
 &trans     &trans    &trans        &trans  &trans  &trans      &trans           &trans          &trans          &trans        &trans           &kp F12
 &kp LCTRL  &kp LWIN  &kp LEFT_ALT  &trans  &trans  &trans      &kp RIGHT_SHIFT  &kp RCTRL                                                      &kp ESC
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
@@ -142,6 +144,8 @@
 &trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         mac_default {
@@ -162,6 +166,8 @@
 &trans    &trans     &trans        &trans  &trans  &trans      &trans           &trans          &trans          &trans        &trans           &kp F12
 &kp LGUI  &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans      &kp RIGHT_SHIFT  &kp RGUI                                                      &kp ESC
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         mac_NUM {
